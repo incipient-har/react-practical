@@ -1,9 +1,10 @@
 import React from "react";
+import ToDomain from "./ToDomain";
 
 function index() {
   return (
-    <div className='container text-center'>
-      <h1>Welcome The Dashboad!</h1>
+    <div>
+      <ToDomain />
     </div>
   );
 }
